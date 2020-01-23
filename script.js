@@ -27,7 +27,7 @@ $(document).ready(function() {
       "<div class='item'<span>ADD/Drop Toolkit</span><div class='menu'><button onclick='Notification.requestPermission()'>Grant Permission for Notification</button><p>Type 'toolkit.startRefresh()' to start automatic refresh</p><p>Type 'toolkit.stopRefresh' to stop refresh</div></div>"
     ).insertBefore(
       "#sidebarPushable > div.pusher.purify_2DCQA > div > div.purify_9yySi > div.purify_13WEs.purify_3eNdw > div > div:nth-child(2)"
-    );
+    ); // Select top of sidebar and add permission grant at the sidebar
   }, 100);
 
   toolkit.startRefresh = function() {
@@ -36,7 +36,7 @@ $(document).ready(function() {
       document
         .querySelector(
           "body > div:nth-child(7) > div > div:nth-child(3) > button.ui.button.purify_3Vjpt"
-        )
+        ) // Click refresh
         .click();
       n++;
       toolkit.updateSubjectList();
@@ -53,8 +53,8 @@ $(document).ready(function() {
 
   toolkit.updateSubjectList = function(){
     $("body > div:nth-child(7) > div > div:nth-child(2)")[0].childNodes.forEach(function (subjectNo, i){
-        subjectName[i] = subjectNo.children[0].innerText;
-        vacancy[i] = subjectNo.children[1].innerText
+        subjectName[i] = subjectNo.children[0].innerText; // Fetch add/drop vacancy data from the vacancy refresh list
+        vacancy[i] = subjectNo.children[1].innerText ]
         if(vacancy[i] > 0){
 
             console.log("%c Subject: " + subjectNo.children[0].innerText + "\nVancancy:" + subjectNo.children[1].innerText, "color: green; font-weight: bold;")
