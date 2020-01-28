@@ -2,7 +2,7 @@
 // @name         New MyHKCC Add/Drop Toolkit
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  try to take over the world!
+// @description  Fk the 0 vacancy!
 // @author       You
 // @include					http*://www*.polyu.edu.hk/myhkcc_new/*
 // @include					http://127.0.0.1/index.html
