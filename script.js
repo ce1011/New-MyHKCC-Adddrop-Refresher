@@ -40,9 +40,7 @@ $(document).ready(function() {
         .click();
       n++;
       toolkit.updateSubjectList();
-      if(n % 5 == 0){
-        console.log("Refreshed " + n + "times")
-      }
+      console.log("Refreshed " + n + "times")
       //document.getElementsByName("refresh")[0].click()
     }, 2000);
   };
