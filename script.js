@@ -24,7 +24,7 @@ $(document).ready(function() {
 
   setTimeout(function() {
     $(
-      "<div class='item'<span>ADD/Drop Toolkit</span><div class='menu'><button onclick='Notification.requestPermission()'>Grant Permission for Notification</button><p>Type 'toolkit.startRefresh()' to start automatic refresh</p><p>Type 'toolkit.stopRefresh' to stop refresh</div></div>"
+      "<div class='item'<span>ADD/Drop Toolkit</span><div class='menu'><button onclick='Notification.requestPermission()'>Grant Permission for Notification</button><p>Type 'toolkit.startRefresh()' to start automatic refresh</p><p>Type 'toolkit.stopRefresh' to stop refresh</p><p>Powered By Parco Au-Yeung</p></div>"
     ).insertBefore(
       "#sidebarPushable > div.pusher.purify_2DCQA > div > div.purify_9yySi > div.purify_13WEs.purify_3eNdw > div > div:nth-child(2)"
     );
