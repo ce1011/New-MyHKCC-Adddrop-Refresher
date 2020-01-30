@@ -21,10 +21,11 @@ function GM_addStyle (cssStr) {
   targ.appendChild (newNode);
 }
 
-GM_addStyle(`.uglyBox{
+GM_addStyle(`.uglyBox{  
   right: 50px;
   bottom: 50px;
   position: fixed;
+  z-index: 1000;
 }
 .btn {
   position: relative;
@@ -39,10 +40,10 @@ GM_addStyle(`.uglyBox{
   outline: none;
   border-radius: 2px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-
+  
   background-color: #2ecc71;
   color: #ecf0f1;
-
+  
   transition: background-color .3s;
 }
 
@@ -61,19 +62,19 @@ GM_addStyle(`.uglyBox{
 
 .btn:before {
   content: "";
-
+  
   position: absolute;
   top: 50%;
   left: 50%;
-
+  
   display: block;
   width: 0;
   padding-top: 0;
-
+    
   border-radius: 100%;
-
+  
   background-color: rgba(236, 240, 241, .3);
-
+  
   -webkit-transform: translate(-50%, -50%);
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -84,7 +85,7 @@ GM_addStyle(`.uglyBox{
 .btn:active:before {
   width: 120%;
   padding-top: 120%;
-
+  
   transition: width .2s ease-out, padding-top .2s ease-out;
 }
 
@@ -159,7 +160,7 @@ $(document).ready(function () {
       "#sidebarPushable > div.pusher.purify_2DCQA > div > div.purify_9yySi > div.purify_13WEs.purify_3eNdw > div > div:nth-child(2)"
     );*/
 
-      $("#root > div:nth-child(1)").append(`
+      $("body").append(`
       <div class="uglyBox card card-1">
       <div class='item'>
           <H2>Add/Drop Toolkit</H2>
