@@ -132,7 +132,7 @@ $(document).ready(function () {
   var toolkit = (window.toolkit = {})
 
   setTimeout(function () {
-    /*$(
+    $(
       `
       <div class="item"><span>Add/Drop Toolkit</span>
       <div class="menu">
@@ -158,8 +158,9 @@ $(document).ready(function () {
   </div>`
     ).insertBefore(
       "#sidebarPushable > div.pusher.purify_2DCQA > div > div.purify_9yySi > div.purify_13WEs.purify_3eNdw > div > div:nth-child(2)"
-    );*/
+    );
 
+    /*
       $("body").append(`
       <div class="uglyBox card card-1">
       <div class='item'>
@@ -174,7 +175,7 @@ $(document).ready(function () {
       <div class='item'>
           <button id='stopButton' type="button" class='btn red'><span>Stop refresh</span></button>
       </div>
-  </div>`);
+  </div>`);*/
 
       $("#startButton").click(toolkit.startRefresh)
       $("#stopButton").click(toolkit.stopRefresh)
