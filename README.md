@@ -1,9 +1,10 @@
 # How to install the refresher?
 
- 1.Install [GreaseMonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or  [TamperMonkey (Chrome and its variant)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-HK)
- 2.[Install](https://gitlab.com/ce1011/new-myhkcc-adddrop-refresher/-/raw/master/script.user.js)this script
- 3.Login MyHKCC
- 4.Press `Grant Permission for Notification` for allow the script push notification.
+1.  Install [GreaseMonkey (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or  [TamperMonkey (Chrome and its variant)](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-HK)
+2.  [Install](https://gitlab.com/ce1011/new-myhkcc-adddrop-refresher/-/raw/master/script.user.js)this script
+3.  Login MyHKCC
+4.  Press `Grant Permission for Notification` for allow the script push notification.
+
 
 ![enter image description here](https://i.imgur.com/aUhDAFI.png)
 
