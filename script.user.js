@@ -152,7 +152,7 @@ $(document).ready(function () {
               <p>Type 'toolkit.stopRefresh' to stop refresh</p>
           </div>
           <div class='item'>
-              <p>Powered By Parco Au-Yeung</p>
+              <p>Created By Parco Au-Yeung</p>
           </div>
       </div>
   </div>`
