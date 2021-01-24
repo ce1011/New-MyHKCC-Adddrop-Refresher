@@ -137,22 +137,16 @@ $(document).ready(function () {
       <div class="item"><span>Add/Drop Toolkit</span>
       <div class="menu">
           <div class='item'>
-              <button onclick='Notification.requestPermission()'>Grant Permission for Notification</button>
+              <button class="ui button" onclick='Notification.requestPermission()'>Grant Permission for Notification</button>
           </div>
           <div class='item'>
-              <button id='startButton'>Start refresh</button>
+              <button class="ui button" id='startButton'>Start refresh</button>
           </div>
           <div class='item'>
-              <button id='stopButton'>Stop refresh</button>
+              <button class="ui button" id='stopButton'>Stop refresh</button>
           </div>
           <div class='item'>
-              <p>Type 'toolkit.startRefresh()' to start automatic refresh</p>
-          </div>
-          <div class='item'>
-              <p>Type 'toolkit.stopRefresh' to stop refresh</p>
-          </div>
-          <div class='item'>
-              <p>Created By Parco Au-Yeung</p>
+              <p>Create By Parco Au-Yeung</p>
           </div>
       </div>
   </div>`
