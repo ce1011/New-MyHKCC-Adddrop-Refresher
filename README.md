@@ -6,7 +6,7 @@
 4.  Press `Grant Permission for Notification` for allow the script push notification.
 
 
-![enter image description here](https://i.imgur.com/aUhDAFI.png)
+![enter image description here](https://i.imgur.com/r3IY6Ik.png)
 
 # How to use the script?
 
